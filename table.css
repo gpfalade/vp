@@ -1,0 +1,57 @@
+body {
+    font-family: "Open Sans", helvetica, arial;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0px 30px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+table tr {
+    height: 40px;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table td, th {
+    padding: 6px 6px 6px 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table tr:nth-of-type(odd) {
+    background: lemonchiffon;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }

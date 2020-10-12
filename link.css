@@ -1,0 +1,24 @@
+
+a.contents {
+    background-color: transparent;
+}
+
+a#heads{
+    width: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    background-color: transparent;
+    padding: 5px 15px;
+    line-height: 1.5em;
+}
+
+a#ones{
+    width: 50px;
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.3em;
+    background-color: transparent;
+    line-height: 1.0em;
+}
+

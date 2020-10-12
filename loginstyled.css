@@ -1,0 +1,87 @@
+input[type=text], input[type=password], input[type=phone], input[type=email], select{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid lightsteelblue; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+
+.maindiv {
+    margin:0 auto;
+    width:980px;
+    height:500px;
+    background:#fff;
+    padding-top:20px;
+    font-size:14px
+    }
+    .title {
+    width:500px;
+    height:70px;
+    text-shadow:2px 2px 2px #cfcfcf;
+    font-size:16px;
+    text-align:center;
+    font-family:'Droid Serif',serif
+    }
+    .form_div {
+    width:70%;
+    float:left
+    }
+    p {
+    color:red
+    }
+    hr {
+    margin-top:15px;
+    margin-bottom:30px
+    }
+    form {
+    margin-top:50px;
+    width:380px;
+    border-radius:2px;
+    box-shadow:0 0 20px gray;
+    padding:0px 60px 40px;
+    background-color:transparent;
+    font-family:'Droid Serif',serif
+    }
+    form h2 {
+    text-align:center;
+    text-shadow:2px 2px 2px #cfcfcf
+    }
+    .input {
+    width:97%;
+    border-radius:4px;
+    box-shadow:0 0 16px 1px #8FC2F5;
+    margin-top:10px;
+    height:35px;
+    padding-left:10px;
+    border:none
+    }
+    .submit {
+    color:#fff;
+    border-radius:3px;
+    background:limegreen;
+    margin-top:35px;
+    border:none;
+    width:100%;
+    height:40px;
+    box-shadow:0 0 1px 2px #255612;
+    font-size:16px
+    }
+    .radio {
+    width:15px;
+    height:15px;
+    border-radius:1px;
+    margin-top:10px;
+    padding:5px;
+    border:none;
+    margin-bottom:20px
+    }
+    .valid {
+    color:green
+    }
+    .invalid {
+    color:red
+    }
